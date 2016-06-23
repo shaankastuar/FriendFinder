@@ -1,4 +1,4 @@
-var friendsData = require('.../data/friends.js');
+var friendsData = require('../data/friends.js');
 
 
 //get all the friends from the friends file
@@ -8,7 +8,7 @@ module.exports = function(app){
 	});
 
 //find the best match
-	app.post('/api/friends', function(req, res){
+	app.post('/data/friends', function(req, res){
 
 		//set up a blank "best match"
 		var bestMatch ={
